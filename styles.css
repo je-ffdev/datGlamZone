@@ -180,4 +180,14 @@ section {
   .hero h1 {
     font-size: 2.5rem;
   }
+  .scroll-buttons {
+    bottom: 80px; /* move it higher to avoid overlap with bottom UI */
+    right: 15px;  /* slightly more margin on smaller screens */
+  }
+
+  .scroll-btn {
+    width: 45px;
+    height: 45px;
+    font-size: 20px;
+  }
 }
