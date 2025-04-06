@@ -44,7 +44,7 @@ body {
 .hero {
   min-height: 100vh;
   height: auto;
-  background: url("image4.png") no-repeat center center;
+  background: url("image1.png") no-repeat center center;
   background-size: cover;
   padding: 0 1.5rem;
   display: flex;
@@ -169,7 +169,7 @@ section {
 /* Responsive */
 @media (max-width: 768px) {
   .hero {
-    background: url("image5.png") no-repeat center center;
+    background: url("image2.png") no-repeat center center;
     background-size: cover;
   }
 
