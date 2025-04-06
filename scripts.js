@@ -21,5 +21,5 @@ scrollUpBtn.addEventListener('click', () => {
 });
 
 scrollDownBtn.addEventListener('click', () => {
-  window.scrollTo({ top: window.scrollY + window.innerHeight, behavior: 'smooth' });
+  window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
 });
