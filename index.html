@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>datGlamZone</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/png" href="logo.png" />
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav id="navbar" class="navbar navbar-expand-lg fixed-top shadow-sm">
+      <div class="container">
+        <a class="navbar-brand text-white fw-bold" href="#home">datGlamZone</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#book">Book Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header
+      id="home"
+      class="hero d-flex align-items-center text-center text-white"
+    >
+      <div class="container">
+        <div class="hero-overlay text-white text-center">
+          <h1 class="display-3 fw-bold mb-3">Elevate Your Glam</h1>
+          <p class="lead mb-4">
+            Beauty beyond boundaries — experience it now at datGlamZone.
+          </p>
+          <a href="#book" class="btn btn-custom btn-lg">Book Now</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" style="background-color: #ffe6f0" class="py-5">
+      <div class="container text-center">
+        <h2 class="fw-bold mb-4" style="color: #b30059">About Us</h2>
+        <p class="lead mb-4" style="color: #333">
+          Welcome to <strong>datGlamZone</strong> , where beauty meets passion,
+          and every face is a canvas!
+        </p>
+        <p style="color: #333">
+          Founded with a vision to redefine glam, datGlamZone is a proudly
+          independent beauty startup committed to delivering personalized,
+          high-quality makeup services for every skin tone and style. Whether
+          you’re prepping for a big event, a photoshoot, or just want to feel
+          like your best self, we’re here to make it happen.
+        </p>
+        <p style="color: #333">
+          Our team of skilled, creative makeup artists brings years of
+          experience in bridal glam, editorial looks, soft natural finishes, and
+          avant-garde expressions. Every session is a celebration of identity
+          and elegance, guided by your preferences, your features, and your
+          goals.
+        </p>
+        <p style="color: #333">
+          We believe beauty is a form of self-love. That’s why at datGlamZone,
+          we don’t just apply makeup, we empower our clients to feel confident,
+          fierce, and fabulous. We use only trusted, skin-friendly products, and
+          maintain strict hygiene standards in every session.
+        </p>
+        <p style="color: #333">
+          Join our growing community of glam lovers and experience the
+          datGlamZone touch, where trends meet timeless beauty, and every glow
+          tells a story.
+        </p>
+        <p class="mt-4" style="color: #b30059; font-weight: 500">
+          ✨ Book your glam session today and let your beauty shine through. ✨
+        </p>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-5">
+      <div class="container text-center text-white">
+        <h2 class="fw-bold mb-4" style="color: #b30059">Our Services</h2>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="service-tile p-4 bg-dark rounded-3 h-100 shadow">
+              <h4 class="mb-3">Event Glam</h4>
+              <p>
+                Perfect for weddings, birthdays, red carpets <br> Show up looking
+                iconic.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service-tile p-4 bg-dark rounded-3 h-100 shadow">
+              <h4 class="mb-3">Photoshoot Makeup</h4>
+              <p>
+                Camera-ready beauty designed for editorial and personal shoots.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service-tile p-4 bg-dark rounded-3 h-100 shadow">
+              <h4 class="mb-3">Everyday Glow</h4>
+              <p>
+                Subtle and stunning <br> For brunches, dates, or just feeling your
+                best.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Book Us Section -->
+    <section id="book" class="py-5 bg-light">
+      <div class="container text-center">
+        <h2 class="fw-bold mb-4">Book Us</h2>
+        <p class="lead">Let’s create something beautiful together.</p>
+
+        <form
+          action="https://formsubmit.co/niiadjartey1@gmail.com"
+          method="POST"
+          class="mt-4"
+          style="max-width: 600px; margin: auto"
+        >
+          <!-- Protect from spam -->
+          <input type="hidden" name="_captcha" value="false" />
+          <input
+            type="hidden"
+            name="_next"
+            value="thankyou.html"
+          />
+
+          <div class="mb-3">
+            <input
+              type="text"
+              class="form-control"
+              name="Name"
+              placeholder="Your Name"
+              required
+            />
+          </div>
+          <div class="mb-3">
+            <input
+              type="email"
+              class="form-control"
+              name="Email"
+              placeholder="Your Email"
+              required
+            />
+          </div>
+          <div class="mb-3">
+            <textarea
+              class="form-control"
+              name="Request"
+              rows="4"
+              placeholder="What are you looking for?"
+              required
+            ></textarea>
+          </div>
+          <div class="mb-3">
+            <input type="date" class="form-control" name="Date" required />
+          </div>
+          <div class="mb-3">
+            <input type="time" class="form-control" name="Time" required />
+          </div>
+          <button type="submit" class="btn btn-custom btn-lg">Book Us</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer text-center text-white py-5">
+      <div class="container">
+        <p class="mb-2">Follow us</p>
+        <div class="social-icons d-flex justify-content-center mb-4">
+          <a href="#"><i class="bi bi-instagram"></i></a>
+          <a href="#"><i class="bi bi-twitter"></i></a>
+          <a href="#"><i class="bi bi-snapchat"></i></a>
+          <a href="#"><i class="bi bi-youtube"></i></a>
+        </div>
+        <p class="mb-0">&copy; 2025 datGlamZone. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <!-- Scroll Buttons -->
+    <div class="scroll-buttons">
+      <button id="scrollUp" class="scroll-btn" title="Scroll Up">
+        <i class="bi bi-arrow-up-circle-fill"></i>
+      </button>
+      <button id="scrollDown" class="scroll-btn" title="Scroll Down">
+        <i class="bi bi-arrow-down-circle-fill"></i>
+      </button>
+    </div>
+
+    <!-- Bootstrap JS and Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+    <script src="scripts.js"></script>
+  </body>
+</html>
